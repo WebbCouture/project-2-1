@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+//Functions to run the game, check answers, calculate correct answers, increment scores, and display questions
+
 function runGame() {
 
 }
