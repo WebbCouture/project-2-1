@@ -14,11 +14,18 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     }
+
 });
 
-//Functions to run the game, check answers, calculate correct answers, increment scores, and display questions
-
+/**
+ * The main game "loop", called when the script is first loaded
+ * and after the user's answer has been processed
+ */
 function runGame() {
+
+    // Creates two random numbers between 1 and 25
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 
 }
 
@@ -38,7 +45,7 @@ function incrementWrongAnswer() {
 
 }
 
-function displayAdditionQuestion() {
+function displayAdditionQuestion(operand1, operand2) {
 
 }
 
